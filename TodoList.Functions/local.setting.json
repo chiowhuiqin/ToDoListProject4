@@ -1,0 +1,14 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "ServiceBusConnectionString": "Endpoint=sb://todolisthuiqin.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WCQ4WxtclhBOK5eCIghOPBRVym5gg1HQL+ASbPFlGzA=",
+        "SqlServerConnectionString": "Server=tcp:tododbhuiqin.database.windows.net,1433;Initial Catalog=tododb;Persist Security Info=False;User ID=chiowhuiqin;Password=team2Malaysia#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+        "SignalRConnectionString": "Endpoint=https://signalr-huiqin.service.signalr.net;AccessKey=0It7nfSWyaojbHET9hhKnO30MCvCbidex6DA/Rf3LP4=;Version=1.0;"
+    },
+    "Host": {
+        "CORS": "http://localhost:5000/",
+        "CORSCredentials": true
+    }
+}
